@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fairuz | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- FLOATING NAVBAR -->
+  <nav class="navbar" aria-label="Navigasi utama">
+    <a href="#home" class="logo">fairuz<span>.dev</span></a>
+
+    <div class="nav-menu" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Ganti tema">&#9680;</button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Buka menu navigasi" aria-controls="navMenu"
+      aria-expanded="false">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="subtitle">Junior Web Devoloment</p>
+
+      <h1>Building Digital<br>Experiences.</h1>
+
+      <h2>Fairuz Hafiyuddin Ramadhani</h2>
+
+      <p class="description">
+        Saya seorang siswa Rekayasa Perangkat Lunak yang senang
+        membangun website, mengeksplorasi teknologi, dan mengubah
+        ide menjadi proyek digital.
+      </p>
+
+      <div class="buttons">
+        <a href="#projects" class="btn primary">Explore My Work</a>
+        <a href="#contact" class="btn">Let's Connect</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="img/profile.png" alt="Foto Fairuz" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 290 340%27%3E%3Crect width=%27290%27 height=%27340%27 fill=%27%23eef0ff%27/%3E%3Ctext x=%2750%25%27 y=%2755%25%27 font-family=%27sans-serif%27 font-size=%2790%27 font-weight=%27700%27 fill=%27%235145e5%27 text-anchor=%27middle%27%3EF.%3C/text%3E%3C/svg%3E';this.onerror=null">
+      <div class="code-card">
+        $ whoami<br>
+        fairuz --learning<br>
+        <span>> html css js python</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <div class="about-grid">
+      <div class="about-copy">
+        <h2>Rasa ingin tahu, diwujudkan lewat karya.</h2>
+        <p class="about-lead">Saya Fairuz, siswa Rekayasa Perangkat Lunak yang senang memahami cara kerja teknologi dengan membuat sesuatu langsung.</p>
+        <p>Saya belajar di SMKN Takeran, kelas X RPL 1. Saat ini saya banyak mengeksplorasi web development, JavaScript, dan python dasar. Setiap proyek kecil jadi kesempatan untuk mencoba ide baru dan meningkatkan kemampuan.</p>
+        <a class="about-cta" href="#skills">Lihat yang sedang saya pelajari <span aria-hidden="true">&#8594;</span></a>
+      </div>
+
+      <aside class="about-card" aria-label="Profil dan fokus belajar Fairuz">
+        <div class="about-card-head">
+          <span class="profile-mark" aria-hidden="true">F.</span>
+          <div><b>Fairuz Hafiyuddin</b><small>Pelajar RPL · SMKN Takeran</small></div>
+          <span class="learning-status"><i></i> Terus belajar</span>
+        </div>
+        <div class="about-facts">
+          <div><span>01</span><p><b>Fokus sekarang</b>JavaScript, Python, dan Machine Learning</p></div>
+          <div><span>02</span><p><b>Hal yang diminati</b>AI dan Teknik Informatika</p></div>
+          <div><span>03</span><p><b>Prinsip belajar</b>Coba, bangun, lalu perbaiki</p></div>
+        </div>
+        <div class="about-card-foot"><span>LEARN</span><b>&rarr;</b><span>BUILD</span><b>&rarr;</b><span>GROW</span></div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section">
+    <div class="skills-inner">
+      <h2>Teknologi yang saya pelajari dan gunakan.</h2>
+      <p class="skills-intro">Fondasi yang terus saya latih lewat eksperimen dan proyek. Saya masih belajar, dan selalu terbuka untuk hal baru.</p>
+      <div class="stack" id="stack" aria-label="Daftar teknologi dan fokus pembelajaran"></div>
+    </div>
+  </section>
+
+  <section class="content-section projects-section" id="projects">
+    <div class="projects-inner">
+      <h2>My Projects</h2>
+      <p class="projects-intro">Berbagai proyek website dari kelas industri.</p>
+      <div class="projects-grid" id="works" aria-label="Daftar proyek"></div>
+    </div>
+  </section>
+
+  <section class="content-section contact-section" id="contact">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <p>kalian bisa menghubungi saya<br class="desktop-break"> lewat beberapa platform dibawah ini.</p>
+      <div class="contact-links" id="contactLinks" aria-label="Tautan kontak"></div>
+    </div>
+  </section>
+
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
